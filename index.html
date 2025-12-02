@@ -63,25 +63,9 @@
 
 </header>
 
+                
 
-
-
-
-
-
-
-
-
-
-            
-
-                <!-- 4. Ствоірть внутрішній контейнер для основної інформації. Задайте йому клас start-inner -->
-
-                    <!-- 4.1. Створіть заголовок першого рівня, головний заголовок сторінки. Задайте йому клас start-title -->
-
-                    <!-- 4.2 Створіть текст з описом, де ми розповідаємо про те, що ми робимо. Задайте йому клас start-article.
-                    Сам текс - We have over 15 year exprience in business consultting arena. We have
-                        over 15 year exprience in business consultting arena and artficial intelligence.-->
+                
 >
                     <!-- 5. Ствірть контейнер для кнопки, які дозволяють користувачеві виконувати різні дії. Задайте класс start-buttons -->
 
@@ -100,10 +84,34 @@
 <main class="main">  <!-- 1. Основна частина сторінки починається тут. Задайте клас main -->
 <section class="start container">  <!-- 2. Тут починається секція. Задайте клас start і container -->
  <div class="solution-container "> <!-- 3. Створіть контейнер та задайте йому клас solution-container -->
-    <div class="start-inner">
-
+    <div class="start-inner"> <!-- 4. Ствоірть внутрішній контейнер для основної інформації. Задайте йому клас start-inner -->
+        <h1 class="start-title"> <!-- 4.1. Створіть заголовок першого рівня, головний заголовок сторінки. Задайте йому клас start-title -->
+                      My title
+         </h1>
+         <!-- 4.2 Створіть текст з описом, де ми розповідаємо про те, що ми робимо. Задайте йому клас start-article.
+                    Сам текс - We have over 15 year exprience in business consultting arena. We have
+                        over 15 year exprience in business consultting arena and artficial intelligence.-->
+        <p class="start-article">
+                        We have over 15 year exprience in business consultting arena. We have
+                        over 15 year exprience in business consultting arena and artficial intelligence.
+        </p>
 
     </div>
+     <!-- 5. Ствірть контейнер для кнопки, які дозволяють користувачеві виконувати різні дії. Задайте класс start-buttons -->
+     <div class="start-buttons">
+      <!-- 5.1. Створіть кнопку. Задайте класс button та tart-button -->
+      <!-- 5.1.1 Створіть посилання в середині якого Join Us. -->
+       <a href="" class="button start-button">Join Us</a>
+       <!-- 5.2. Створіть кнопку. Задайте класс start-button-video -->
+       <button class="start-button-video">
+       <!-- 5.2.1. Створіть іконку через тег img (start__button-video.svg). -->
+       <img src="start__button-video.svg" alt="Start video">
+       !-- 5.2.2. Створіть текст на кнопці Watch video  -->
+        <span>Watch video</span>
+        </button>
+     </div>
+     <!-- 6. Створіть основне зображення, яке показує людину. (start__dude.png). Задайте клас start-img  -->
+     <img src="start__dude.png" alt="Man" class="start-img">
  </div>
 </section>
 </main>
@@ -150,3 +158,4 @@
 
 
 </html>
+
